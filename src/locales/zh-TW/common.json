@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "ESP32-S3 工作臺指南",
+    "title": "ESP32 Fans",
     "loading": "正在載入工作臺指南…",
     "loadingSettings": "正在載入設定…"
   },
@@ -26,13 +26,13 @@
     "new": "新"
   },
   "titles": {
-    "labs": "實驗 · ESP32-S3 工作臺指南",
-    "lesson": "{{id}} · {{title}} · ESP32-S3 工作臺指南",
-    "code": "{{id}} 程式碼 · {{title}} · ESP32-S3 工作臺指南",
-    "log": "工作臺日誌 · ESP32-S3 工作臺指南",
-    "parts": "元件函式庫 · ESP32-S3 工作臺指南",
-    "settings": "設定 · ESP32-S3 工作臺指南",
-    "chip": "{{page}} · 晶片 · ESP32-S3 工作臺指南"
+    "labs": "實驗 · ESP32 Fans",
+    "lesson": "{{id}} · {{title}} · ESP32 Fans",
+    "code": "{{id}} 程式碼 · {{title}} · ESP32 Fans",
+    "log": "工作臺日誌 · ESP32 Fans",
+    "parts": "元件函式庫 · ESP32 Fans",
+    "settings": "設定 · ESP32 Fans",
+    "chip": "{{page}} · 晶片 · ESP32 Fans"
   },
   "routeError": {
     "code": "錯誤",
@@ -208,16 +208,9 @@
     "intro": "一份免費、開放的 <b>ESP32-S3</b> 指南：在真實的 DevKitC-1 上接線與燒錄的動手實驗、不需開發板就能試用的模擬器、3D 開發板與腳位圖、逐行解說韌體的閱讀器，以及變得好讀的晶片資料手冊。",
     "disclaimer": "這是非官方的獨立專案，與樂鑫（Espressif）無關，也未獲其認可。每個實驗都在真實開發板上搭建並執行，但接線、腳位圖與數值皆經審閱，而非保證：請一律以開發板上的絲印與樂鑫官方文件為準。",
     "feedback": "發現錯誤，或想要新的實驗？<issues>在 GitHub 上開 issue</issues> 是最快的修正方式。",
-    "madeBy": "由 <b>Abderrahmen Gharsallah (Abdu)</b> 製作。",
+    "basedOn": "<b>ESP32 Fans</b> 是一個獨立網站，基於 Abderrahmen Gharsallah 的開源教學 <upstream>ESP32 Labs</upstream> 修改而成，原專案以 <license>MIT 授權</license>發布。本站不是原作者的官方網站，也不由他經營。",
     "thanks": "感謝 GitHub 上這些貢獻者的協助：",
     "allContributors": "所有貢獻者",
-    "connect": "打聲招呼，保持聯繫：",
-    "links": {
-      "linkedin": "LinkedIn",
-      "github": "GitHub",
-      "x": "X",
-      "coffee": "請我喝杯咖啡"
-    },
     "newTab": "（在新分頁中開啟）"
   }
 }

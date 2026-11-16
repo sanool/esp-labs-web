@@ -15,6 +15,7 @@
   "log": {
     "title": "Registro del banco",
     "intro": "Cada comando que instaló software, habló con la placa o la flasheó, con su respuesta. Claude anuncia cada comando antes. Todo lo que toca la placa o instala espera tu visto bueno.",
+    "note": "Este registro es el del banco del autor original: la placa, el puerto y los comandos son suyos, y se conservan como ejemplo. Aquí no se muestra el estado de tu propia placa.",
     "filter": "Filtrar por tipo",
     "timeline": "Cronología del registro",
     "entryLabel": "{{n}} · {{types}} · {{title}}",

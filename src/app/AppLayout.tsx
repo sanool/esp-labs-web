@@ -51,7 +51,7 @@ export function AppLayout() {
             <Icon name="chip" size={20} />
           </span>
           <span>
-            <span className={styles.eyebrow}>esp-labs</span>
+            <span className={styles.eyebrow}>esp32.fans</span>
             <span className={styles.name}>
               <Trans
                 t={t}

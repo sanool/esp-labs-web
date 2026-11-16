@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "ESP32-S3 Bench Guide",
+    "title": "ESP32 Fans",
     "loading": "Loading the bench guide…",
     "loadingSettings": "Loading settings…"
   },
@@ -26,13 +26,13 @@
     "new": "New"
   },
   "titles": {
-    "labs": "Labs · ESP32-S3 Bench Guide",
-    "lesson": "{{id}} · {{title}} · ESP32-S3 Bench Guide",
-    "code": "{{id}} code · {{title}} · ESP32-S3 Bench Guide",
-    "log": "Bench log · ESP32-S3 Bench Guide",
-    "parts": "Parts library · ESP32-S3 Bench Guide",
-    "settings": "Settings · ESP32-S3 Bench Guide",
-    "chip": "{{page}} · Datasheet · ESP32-S3 Bench Guide"
+    "labs": "Labs · ESP32 Fans",
+    "lesson": "{{id}} · {{title}} · ESP32 Fans",
+    "code": "{{id}} code · {{title}} · ESP32 Fans",
+    "log": "Bench log · ESP32 Fans",
+    "parts": "Parts library · ESP32 Fans",
+    "settings": "Settings · ESP32 Fans",
+    "chip": "{{page}} · Datasheet · ESP32 Fans"
   },
   "routeError": {
     "code": "Error",
@@ -235,16 +235,9 @@
     "intro": "A free, open guide to the <b>ESP32-S3</b>: hands-on labs you wire and flash on a real DevKitC-1, simulators to try without a board, a 3D board and pinout, a reader that explains the firmware line by line, and the chip's datasheet made readable.",
     "disclaimer": "This is an unofficial, independent project, not affiliated with or endorsed by Espressif. Every lab is built and run on a real board, but wiring, pinouts and figures are reviewed, never guaranteed: the labels printed on your board and Espressif's own documents always win.",
     "feedback": "Spotted a mistake, or want a new lab? <issues>An issue on GitHub</issues> is the fastest way to get it fixed.",
-    "madeBy": "Made by <b>Abderrahmen Gharsallah (Abdu)</b>.",
+    "basedOn": "<b>ESP32 Fans</b> is an independent site built on <upstream>ESP32 Labs</upstream>, the open-source guide by Abderrahmen Gharsallah, released under the <license>MIT licence</license>. It is not the original author's site, and he does not run it.",
     "thanks": "With help from these contributors on GitHub:",
     "allContributors": "Everyone who contributed",
-    "connect": "Say hello, and let's connect:",
-    "links": {
-      "linkedin": "LinkedIn",
-      "github": "GitHub",
-      "x": "X",
-      "coffee": "Buy me a coffee"
-    },
     "newTab": "(opens in a new tab)"
   }
 }

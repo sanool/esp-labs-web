@@ -15,6 +15,7 @@
   "log": {
     "title": "Bench-Log",
     "intro": "Jeder Befehl, der Software installiert, mit dem Board gesprochen oder es geflasht hat, samt Antwort. Claude kündigt jeden Befehl vorher an. Alles, was das Board anfasst oder etwas installiert, wartet auf dein Go.",
+    "note": "Dieses Protokoll stammt vom Arbeitsplatz des ursprünglichen Autors: Board, Port und Befehle sind seine, als Beispiel erhalten. Der Zustand deines eigenen Boards wird hier nicht angezeigt.",
     "filter": "Nach Typ filtern",
     "timeline": "Log-Zeitleiste",
     "entryLabel": "{{n}} · {{types}} · {{title}}",

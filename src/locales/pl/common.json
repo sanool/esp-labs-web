@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "Przewodnik stanowiskowy ESP32-S3",
+    "title": "ESP32 Fans",
     "loading": "Ładowanie przewodnika stanowiskowego…",
     "loadingSettings": "Ładowanie ustawień…"
   },
@@ -26,13 +26,13 @@
     "new": "Nowe"
   },
   "titles": {
-    "labs": "Ćwiczenia · Przewodnik stanowiskowy ESP32-S3",
-    "lesson": "{{id}} · {{title}} · Przewodnik stanowiskowy ESP32-S3",
-    "code": "{{id}} kod · {{title}} · Przewodnik stanowiskowy ESP32-S3",
-    "log": "Dziennik stanowiska · Przewodnik stanowiskowy ESP32-S3",
-    "parts": "Biblioteka części · Przewodnik stanowiskowy ESP32-S3",
-    "settings": "Ustawienia · Przewodnik stanowiskowy ESP32-S3",
-    "chip": "{{page}} · Nota katalogowa · Przewodnik stanowiskowy ESP32-S3"
+    "labs": "Ćwiczenia · ESP32 Fans",
+    "lesson": "{{id}} · {{title}} · ESP32 Fans",
+    "code": "{{id}} kod · {{title}} · ESP32 Fans",
+    "log": "Dziennik stanowiska · ESP32 Fans",
+    "parts": "Biblioteka części · ESP32 Fans",
+    "settings": "Ustawienia · ESP32 Fans",
+    "chip": "{{page}} · Nota katalogowa · ESP32 Fans"
   },
   "routeError": {
     "code": "Błąd",
@@ -237,16 +237,9 @@
     "intro": "Darmowy, otwarty przewodnik po <b>ESP32-S3</b>: praktyczne laboratoria, które podłączasz i wgrywasz na prawdziwą płytkę DevKitC-1, symulatory do wypróbowania bez płytki, płytka w 3D z wyprowadzeniami, czytnik objaśniający firmware linia po linii i karta katalogowa układu w czytelnej formie.",
     "disclaimer": "To nieoficjalny, niezależny projekt, niezwiązany z firmą Espressif ani przez nią nie popierany. Każde laboratorium jest zbudowane i uruchomione na prawdziwej płytce, ale okablowanie, wyprowadzenia i wartości są sprawdzane, nigdy gwarantowane: oznaczenia na Twojej płytce i dokumenty Espressif są zawsze ważniejsze.",
     "feedback": "Widzisz błąd albo chcesz nowe laboratorium? <issues>Zgłoszenie na GitHubie</issues> to najszybszy sposób, by to naprawić.",
-    "madeBy": "Autor: <b>Abderrahmen Gharsallah (Abdu)</b>.",
+    "basedOn": "<b>ESP32 Fans</b> to niezależna strona zbudowana na bazie <upstream>ESP32 Labs</upstream>, otwartego przewodnika autorstwa Abderrahmena Gharsallaha, wydanego na <license>licencji MIT</license>. To nie jest strona pierwotnego autora i nie on ją prowadzi.",
     "thanks": "Z pomocą tych osób na GitHubie:",
     "allContributors": "Wszyscy współtwórcy",
-    "connect": "Przywitaj się i bądźmy w kontakcie:",
-    "links": {
-      "linkedin": "LinkedIn",
-      "github": "GitHub",
-      "x": "X",
-      "coffee": "Postaw mi kawę"
-    },
     "newTab": "(otwiera się w nowej karcie)"
   }
 }

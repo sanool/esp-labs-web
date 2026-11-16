@@ -38,6 +38,7 @@ export function LogPage() {
           <div>
             <h2 id="log-title">{t("log.title")}</h2>
             <p>{t("log.intro")}</p>
+            <p>{t("log.note")}</p>
           </div>
           <div className={styles.filters} role="group" aria-label={t("log.filter")}>
             {FILTERS.map((f) => (

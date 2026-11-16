@@ -15,6 +15,7 @@
   "log": {
     "title": "Bench log",
     "intro": "Every command that installed software, talked to the board or flashed it, with its response. Claude announces each command first. Anything that touches the board or installs waits for your go.",
+    "note": "This log is the original author's own bench record: the board, port and commands are his, kept as an example. Your own board's status is not shown here.",
     "filter": "Filter by type",
     "timeline": "Log timeline",
     "entryLabel": "{{n}} · {{types}} · {{title}}",

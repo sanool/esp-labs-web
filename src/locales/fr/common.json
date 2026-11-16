@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "Guide d'établi ESP32-S3",
+    "title": "ESP32 Fans",
     "loading": "Chargement du guide d'établi…",
     "loadingSettings": "Chargement des réglages…"
   },
@@ -26,13 +26,13 @@
     "new": "Nouveau"
   },
   "titles": {
-    "labs": "Labos · Guide d'établi ESP32-S3",
-    "lesson": "{{id}} · {{title}} · Guide d'établi ESP32-S3",
-    "code": "Code {{id}} · {{title}} · Guide d'établi ESP32-S3",
-    "log": "Journal de l'établi · Guide d'établi ESP32-S3",
-    "parts": "Bibliothèque de pièces · Guide d'établi ESP32-S3",
-    "settings": "Réglages · Guide d'établi ESP32-S3",
-    "chip": "{{page}} · Fiche technique · Guide d'établi ESP32-S3"
+    "labs": "Labos · ESP32 Fans",
+    "lesson": "{{id}} · {{title}} · ESP32 Fans",
+    "code": "Code {{id}} · {{title}} · ESP32 Fans",
+    "log": "Journal de l'établi · ESP32 Fans",
+    "parts": "Bibliothèque de pièces · ESP32 Fans",
+    "settings": "Réglages · ESP32 Fans",
+    "chip": "{{page}} · Fiche technique · ESP32 Fans"
   },
   "routeError": {
     "code": "Erreur",
@@ -210,16 +210,9 @@
     "intro": "Un guide libre et gratuit de l'<b>ESP32-S3</b> : des labs pratiques à câbler et flasher sur une vraie DevKitC-1, des simulateurs à essayer sans carte, une carte en 3D et son brochage, un lecteur qui explique le firmware ligne par ligne, et la fiche technique de la puce rendue lisible.",
     "disclaimer": "Ce projet est non officiel et indépendant, ni affilié à Espressif ni approuvé par Espressif. Chaque lab est construit et exécuté sur une vraie carte, mais câblages, brochages et chiffres sont relus, jamais garantis : les marquages de votre carte et les documents d'Espressif font toujours foi.",
     "feedback": "Une erreur repérée, ou envie d'un nouveau lab ? <issues>Un ticket sur GitHub</issues> est le moyen le plus rapide de la faire corriger.",
-    "madeBy": "Réalisé par <b>Abderrahmen Gharsallah (Abdu)</b>.",
+    "basedOn": "<b>ESP32 Fans</b> est un site indépendant construit à partir de <upstream>ESP32 Labs</upstream>, le guide open source d'Abderrahmen Gharsallah, publié sous <license>licence MIT</license>. Ce n'est pas le site de l'auteur d'origine, et il ne le gère pas.",
     "thanks": "Avec l'aide de ces contributeurs sur GitHub :",
     "allContributors": "Tous les contributeurs",
-    "connect": "Dites bonjour, et restons en contact :",
-    "links": {
-      "linkedin": "LinkedIn",
-      "github": "GitHub",
-      "x": "X",
-      "coffee": "Offrez-moi un café"
-    },
     "newTab": "(s'ouvre dans un nouvel onglet)"
   }
 }

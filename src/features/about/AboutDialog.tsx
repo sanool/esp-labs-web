@@ -1,16 +1,13 @@
 import { type ReactNode, useEffect, useId, useRef } from "react";
 import { Trans, useTranslation } from "react-i18next";
-import { GithubMark } from "@/ui/GithubMark";
 import { Icon } from "@/ui/Icon";
 import { RichText } from "@/ui/RichText";
-import { XMark } from "@/ui/XMark";
-import { AUTHOR_LINKS, COFFEE_URL, ISSUES_URL, isOutside } from "./about-links";
+import { ISSUES_URL, LICENSE_URL, UPSTREAM_URL, isOutside } from "./about-links";
 import styles from "./AboutDialog.module.css";
-import { Contributors } from "./Contributors";
 
 /**
- * The top bar's "About" button and the modal it opens: what the guide is and is not, who made it,
- * and where to find them. A native <dialog>: focus is trapped, Escape closes, focus returns to the
+ * The top bar's "About" button and the modal it opens: what the guide is and is not, and that this
+ * site is an independent build of the open-source original, not the original author's own site. A native <dialog>: focus is trapped, Escape closes, focus returns to the
  * button, and a click on the dimmed page around it closes it too.
  */
 export function AboutDialog() {
@@ -77,48 +74,32 @@ export function AboutDialog() {
               t={t}
               i18nKey="about.feedback"
               components={{
-                issues: <IssuesLink />,
+                issues: <ExternalLink href={ISSUES_URL} />,
               }}
             />
           </p>
         </div>
         <hr className={styles.rule} />
         <p className={styles.made}>
-          <RichText text={t("about.madeBy")} />
+          <Trans
+            t={t}
+            i18nKey="about.basedOn"
+            components={{
+              b: <b />,
+              upstream: <ExternalLink href={UPSTREAM_URL} />,
+              license: <ExternalLink href={LICENSE_URL} />,
+            }}
+          />
         </p>
-        <Contributors />
-        <p className={styles.made}>{t("about.connect")}</p>
-        <div className={styles.links}>
-          {AUTHOR_LINKS.map((l) => (
-            <a
-              key={l.id}
-              className={styles.link}
-              href={l.href}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              {l.id === "github" ? <GithubMark size={16} /> : null}
-              {l.id === "x" ? <XMark size={14} /> : null}
-              {t(`about.links.${l.id}`)}
-              <Icon name="external" size={14} />
-              <span className="visually-hidden">{t("about.newTab")}</span>
-            </a>
-          ))}
-          <a className={styles.coffee} href={COFFEE_URL} target="_blank" rel="noreferrer noopener">
-            <Icon name="coffee" size={18} stroke={2} />
-            {t("about.links.coffee")}
-            <span className="visually-hidden">{t("about.newTab")}</span>
-          </a>
-        </div>
       </dialog>
     </>
   );
 }
 
-/** The feedback sentence's link; <Trans> fills in its words. */
-function IssuesLink({ children }: { children?: ReactNode }) {
+/** A link inside a translated sentence; <Trans> fills in its words. */
+function ExternalLink({ href, children }: { href: string; children?: ReactNode }) {
   return (
-    <a href={ISSUES_URL} target="_blank" rel="noreferrer noopener">
+    <a href={href} target="_blank" rel="noreferrer noopener">
       {children}
     </a>
   );

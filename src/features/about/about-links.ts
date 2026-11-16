@@ -1,15 +1,11 @@
-/** Where the guide's author can be found. Labels live in the `common` catalogue (`about.links.<id>`). */
-export const AUTHOR_LINKS = [
-  { id: "linkedin", href: "https://www.linkedin.com/in/gharsallah/" },
-  { id: "github", href: "https://github.com/agharsallah" },
-  { id: "x", href: "https://x.com/abderrahmen_g" },
-] as const;
+/** The open-source guide this site is built on. */
+export const UPSTREAM_URL = "https://github.com/agharsallah/esp-labs-web";
 
-/** The one call to action, drawn apart from the plain links. */
-export const COFFEE_URL = "https://buymeacoffee.com/agharsallah";
+/** The licence text, with the original copyright notice, as this site ships it. */
+export const LICENSE_URL = "https://github.com/sanool/esp-labs-web/blob/esp32fans/LICENSE";
 
-/** Where readers report a mistake or propose a lab. */
-export const ISSUES_URL = "https://github.com/agharsallah/esp-labs-web/issues/new/choose";
+/** Where readers report a mistake or propose a lab: this site's own tracker, not the original's. */
+export const ISSUES_URL = "https://github.com/sanool/esp-labs-web/issues/new";
 
 /** A click on a modal dialog's backdrop targets the dialog itself, outside its box. */
 export function isOutside(

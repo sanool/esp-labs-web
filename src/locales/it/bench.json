@@ -15,6 +15,7 @@
   "log": {
     "title": "Registro del banco",
     "intro": "Ogni comando che ha installato software, parlato con la scheda o l'ha flashata, con la sua risposta. Claude annuncia ogni comando prima. Tutto ciò che tocca la scheda o installa aspetta il tuo via libera.",
+    "note": "Questo registro è quello del banco dell'autore originale: scheda, porta e comandi sono suoi, conservati come esempio. Lo stato della tua scheda non è mostrato qui.",
     "filter": "Filtra per tipo",
     "timeline": "Cronologia del registro",
     "entryLabel": "{{n}} · {{types}} · {{title}}",

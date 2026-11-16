@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "Guida da banco ESP32-S3",
+    "title": "ESP32 Fans",
     "loading": "Caricamento della guida da banco…",
     "loadingSettings": "Caricamento delle impostazioni…"
   },
@@ -26,13 +26,13 @@
     "new": "Nuovo"
   },
   "titles": {
-    "labs": "Lab · Guida da banco ESP32-S3",
-    "lesson": "{{id}} · {{title}} · Guida da banco ESP32-S3",
-    "code": "Codice {{id}} · {{title}} · Guida da banco ESP32-S3",
-    "log": "Registro del banco · Guida da banco ESP32-S3",
-    "parts": "Libreria dei componenti · Guida da banco ESP32-S3",
-    "settings": "Impostazioni · Guida da banco ESP32-S3",
-    "chip": "{{page}} · Scheda tecnica · Guida da banco ESP32-S3"
+    "labs": "Lab · ESP32 Fans",
+    "lesson": "{{id}} · {{title}} · ESP32 Fans",
+    "code": "Codice {{id}} · {{title}} · ESP32 Fans",
+    "log": "Registro del banco · ESP32 Fans",
+    "parts": "Libreria dei componenti · ESP32 Fans",
+    "settings": "Impostazioni · ESP32 Fans",
+    "chip": "{{page}} · Scheda tecnica · ESP32 Fans"
   },
   "routeError": {
     "code": "Errore",
@@ -210,16 +210,9 @@
     "intro": "Una guida libera e gratuita all'<b>ESP32-S3</b>: laboratori pratici da cablare e flashare su una vera DevKitC-1, simulatori da provare senza scheda, una scheda in 3D con il pinout, un lettore che spiega il firmware riga per riga e il datasheet del chip reso leggibile.",
     "disclaimer": "È un progetto non ufficiale e indipendente, non affiliato né approvato da Espressif. Ogni laboratorio è costruito e provato su una scheda vera, ma cablaggi, pinout e valori sono rivisti, mai garantiti: le serigrafie della tua scheda e i documenti di Espressif hanno sempre l'ultima parola.",
     "feedback": "Hai trovato un errore o vuoi un nuovo laboratorio? <issues>Una issue su GitHub</issues> è il modo più rapido per sistemarlo.",
-    "madeBy": "Fatto da <b>Abderrahmen Gharsallah (Abdu)</b>.",
+    "basedOn": "<b>ESP32 Fans</b> è un sito indipendente basato su <upstream>ESP32 Labs</upstream>, la guida open source di Abderrahmen Gharsallah, rilasciata con <license>licenza MIT</license>. Non è il sito dell'autore originale, che non lo gestisce.",
     "thanks": "Con l'aiuto di questi contributori su GitHub:",
     "allContributors": "Tutti i contributori",
-    "connect": "Passa a salutare e restiamo in contatto:",
-    "links": {
-      "linkedin": "LinkedIn",
-      "github": "GitHub",
-      "x": "X",
-      "coffee": "Offrimi un caffè"
-    },
     "newTab": "(si apre in una nuova scheda)"
   }
 }

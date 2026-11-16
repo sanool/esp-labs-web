@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "Guía de banco ESP32-S3",
+    "title": "ESP32 Fans",
     "loading": "Cargando la guía de banco…",
     "loadingSettings": "Cargando ajustes…"
   },
@@ -26,13 +26,13 @@
     "new": "Nuevo"
   },
   "titles": {
-    "labs": "Laboratorios · Guía de banco ESP32-S3",
-    "lesson": "{{id}} · {{title}} · Guía de banco ESP32-S3",
-    "code": "Código {{id}} · {{title}} · Guía de banco ESP32-S3",
-    "log": "Registro del banco · Guía de banco ESP32-S3",
-    "parts": "Biblioteca de piezas · Guía de banco ESP32-S3",
-    "settings": "Ajustes · Guía de banco ESP32-S3",
-    "chip": "{{page}} · Hoja de datos · Guía de banco ESP32-S3"
+    "labs": "Laboratorios · ESP32 Fans",
+    "lesson": "{{id}} · {{title}} · ESP32 Fans",
+    "code": "Código {{id}} · {{title}} · ESP32 Fans",
+    "log": "Registro del banco · ESP32 Fans",
+    "parts": "Biblioteca de piezas · ESP32 Fans",
+    "settings": "Ajustes · ESP32 Fans",
+    "chip": "{{page}} · Hoja de datos · ESP32 Fans"
   },
   "routeError": {
     "code": "Error",
@@ -210,16 +210,9 @@
     "intro": "Una guía libre y gratuita del <b>ESP32-S3</b>: laboratorios prácticos que cableas y flasheas en una DevKitC-1 real, simuladores para probar sin placa, una placa en 3D con su pinout, un lector que explica el firmware línea a línea y la hoja de datos del chip hecha legible.",
     "disclaimer": "Es un proyecto no oficial e independiente, sin relación con Espressif ni respaldado por ella. Cada laboratorio se construye y se ejecuta en una placa real, pero el cableado, los pinouts y las cifras se revisan, nunca se garantizan: las serigrafías de tu placa y los documentos de Espressif siempre mandan.",
     "feedback": "¿Has visto un error o quieres un laboratorio nuevo? <issues>Una incidencia en GitHub</issues> es la forma más rápida de arreglarlo.",
-    "madeBy": "Hecho por <b>Abderrahmen Gharsallah (Abdu)</b>.",
+    "basedOn": "<b>ESP32 Fans</b> es un sitio independiente basado en <upstream>ESP32 Labs</upstream>, la guía de código abierto de Abderrahmen Gharsallah, publicada bajo la <license>licencia MIT</license>. No es el sitio del autor original, y él no lo gestiona.",
     "thanks": "Con la ayuda de estas personas en GitHub:",
     "allContributors": "Todas las contribuciones",
-    "connect": "Saluda y conectemos:",
-    "links": {
-      "linkedin": "LinkedIn",
-      "github": "GitHub",
-      "x": "X",
-      "coffee": "Invítame a un café"
-    },
     "newTab": "(se abre en una pestaña nueva)"
   }
 }
