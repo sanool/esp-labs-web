@@ -10,9 +10,8 @@
     }
   },
   "hud": {
-    "title": "Lab funzionanti",
+    "title": "I tuoi progressi",
     "strip": "Tutti i lab, per tema",
-    "works": "sulla scheda",
     "done": "fatti da te",
     "built": "pronti da provare"
   },
@@ -106,7 +105,7 @@
   },
   "track": {
     "planned": "in programma",
-    "working": "<b>{{working}}</b>/{{total}}<span> funzionanti</span>",
+    "done": "<b>{{done}}</b>/{{total}}<span> fatti</span>",
     "state": ", {{state}}",
     "loading": "Caricamento…"
   }

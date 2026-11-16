@@ -209,8 +209,6 @@
     "disclaimer": "这是一个非官方的独立项目，与乐鑫（Espressif）无关，也未获其认可。每个实验都在真实开发板上搭建并运行，但接线、引脚图和数据都经过审核，而非保证：请始终以开发板上的丝印和乐鑫官方文档为准。",
     "feedback": "发现错误，或想要新的实验？<issues>在 GitHub 上提交 issue</issues> 是最快的修复途径。",
     "basedOn": "<b>ESP32 Fans</b> 是一个独立站点，基于 Abderrahmen Gharsallah 的开源教程 <upstream>ESP32 Labs</upstream> 修改而成，原项目以 <license>MIT 许可</license>发布。本站不是原作者的官方网站，也不由他运营。",
-    "thanks": "感谢 GitHub 上这些贡献者的帮助：",
-    "allContributors": "所有贡献者",
     "newTab": "（在新标签页中打开）"
   }
 }

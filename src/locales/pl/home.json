@@ -10,9 +10,8 @@
     }
   },
   "hud": {
-    "title": "Działające ćwiczenia",
+    "title": "Twoje postępy",
     "strip": "Każde ćwiczenie, według działu",
-    "works": "na płytce",
     "done": "zrobione przez ciebie",
     "built": "gotowe do wypróbowania"
   },
@@ -111,7 +110,7 @@
   },
   "track": {
     "planned": "zaplanowane",
-    "working": "<b>{{working}}</b>/{{total}}<span> działa</span>",
+    "done": "<b>{{done}}</b>/{{total}}<span> zrobione</span>",
     "state": ", {{state}}",
     "loading": "Ładowanie…"
   }

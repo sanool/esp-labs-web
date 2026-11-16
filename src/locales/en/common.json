@@ -236,8 +236,6 @@
     "disclaimer": "This is an unofficial, independent project, not affiliated with or endorsed by Espressif. Every lab is built and run on a real board, but wiring, pinouts and figures are reviewed, never guaranteed: the labels printed on your board and Espressif's own documents always win.",
     "feedback": "Spotted a mistake, or want a new lab? <issues>An issue on GitHub</issues> is the fastest way to get it fixed.",
     "basedOn": "<b>ESP32 Fans</b> is an independent site built on <upstream>ESP32 Labs</upstream>, the open-source guide by Abderrahmen Gharsallah, released under the <license>MIT licence</license>. It is not the original author's site, and he does not run it.",
-    "thanks": "With help from these contributors on GitHub:",
-    "allContributors": "Everyone who contributed",
     "newTab": "(opens in a new tab)"
   }
 }

@@ -10,9 +10,8 @@
     }
   },
   "hud": {
-    "title": "المختبرات العاملة",
+    "title": "تقدّمك",
     "strip": "كل المختبرات حسب الموضوع",
-    "works": "على اللوحة",
     "done": "أنجزتها أنت",
     "built": "جاهزة للتجربة"
   },
@@ -121,7 +120,7 @@
   },
   "track": {
     "planned": "مخطَّط",
-    "working": "<b>{{working}}</b>/{{total}}<span> تعمل</span>",
+    "done": "<b>{{done}}</b>/{{total}}<span> منجزة</span>",
     "state": "، {{state}}",
     "loading": "جارٍ التحميل…"
   }

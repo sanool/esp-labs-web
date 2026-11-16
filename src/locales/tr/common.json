@@ -236,8 +236,6 @@
     "disclaimer": "Bu, Espressif ile bağlantılı olmayan ve onun tarafından onaylanmayan, resmî olmayan bağımsız bir projedir. Her laboratuvar gerçek bir kartta kurulup çalıştırılır, ancak kablolama, pin şemaları ve değerler gözden geçirilir, asla garanti edilmez: kartının üzerindeki yazılar ve Espressif'in kendi belgeleri her zaman önceliklidir.",
     "feedback": "Bir hata mı fark ettin, yoksa yeni bir laboratuvar mı istiyorsun? <issues>GitHub'da bir issue</issues> düzeltilmesinin en hızlı yolu.",
     "basedOn": "<b>ESP32 Fans</b>, Abderrahmen Gharsallah'ın <license>MIT lisansıyla</license> yayımlanan açık kaynak rehberi <upstream>ESP32 Labs</upstream> üzerine kurulmuş bağımsız bir sitedir. Asıl yazarın sitesi değildir ve onun tarafından yönetilmez.",
-    "thanks": "GitHub'daki bu katkıcıların yardımıyla:",
-    "allContributors": "Tüm katkıda bulunanlar",
     "newTab": "(yeni sekmede açılır)"
   }
 }

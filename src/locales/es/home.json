@@ -10,9 +10,8 @@
     }
   },
   "hud": {
-    "title": "Laboratorios que funcionan",
+    "title": "Tu progreso",
     "strip": "Todos los laboratorios, por tema",
-    "works": "en la placa",
     "done": "hechos por ti",
     "built": "listos para probar"
   },
@@ -106,7 +105,7 @@
   },
   "track": {
     "planned": "previsto",
-    "working": "<b>{{working}}</b>/{{total}}<span> funcionan</span>",
+    "done": "<b>{{done}}</b>/{{total}}<span> hechos</span>",
     "state": ", {{state}}",
     "loading": "Cargando…"
   }

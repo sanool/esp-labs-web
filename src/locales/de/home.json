@@ -10,9 +10,8 @@
     }
   },
   "hud": {
-    "title": "Labs, die laufen",
+    "title": "Dein Fortschritt",
     "strip": "Alle Labs nach Track",
-    "works": "auf dem Board",
     "done": "von dir erledigt",
     "built": "bereit zum Testen"
   },
@@ -101,7 +100,7 @@
   },
   "track": {
     "planned": "geplant",
-    "working": "<b>{{working}}</b>/{{total}}<span> laufen</span>",
+    "done": "<b>{{done}}</b>/{{total}}<span> erledigt</span>",
     "state": ", {{state}}",
     "loading": "Lade…"
   }

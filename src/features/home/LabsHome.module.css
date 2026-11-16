@@ -134,7 +134,6 @@
   border-radius: 2px;
   border: 1.5px solid color-mix(in oklab, var(--track) 55%, var(--line));
 }
-.strip i[data-state="works"],
 .strip i[data-state="done"] {
   background: var(--track);
   border-color: var(--track);
@@ -145,7 +144,7 @@
 }
 .stats {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(2, auto);
   justify-content: space-between;
   gap: 8px 16px;
   margin: 0;
@@ -164,9 +163,6 @@
   margin: 0;
   font: 800 24px / 1 var(--font-display);
   font-variant-numeric: tabular-nums;
-}
-.stats [data-state="works"] dd {
-  color: var(--ok);
 }
 .stats [data-state="done"] dd {
   color: var(--copper);

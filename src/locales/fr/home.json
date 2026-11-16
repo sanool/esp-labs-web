@@ -10,9 +10,8 @@
     }
   },
   "hud": {
-    "title": "Labos qui marchent",
+    "title": "Ta progression",
     "strip": "Tous les labos, par thème",
-    "works": "sur la carte",
     "done": "faits par toi",
     "built": "prêts à tester"
   },
@@ -106,7 +105,7 @@
   },
   "track": {
     "planned": "prévu",
-    "working": "<b>{{working}}</b>/{{total}}<span> fonctionnent</span>",
+    "done": "<b>{{done}}</b>/{{total}}<span> faits</span>",
     "state": ", {{state}}",
     "loading": "Chargement…"
   }

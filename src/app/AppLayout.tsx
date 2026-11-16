@@ -2,7 +2,6 @@
 import { Trans, useTranslation } from "react-i18next";
 import { Link, Outlet, ScrollRestoration, useLocation, useNavigation } from "react-router";
 import { AboutDialog } from "@/features/about/AboutDialog";
-import { BenchPill } from "@/features/bench/BenchPill";
 import { LanguageMenu } from "@/features/language/LanguageMenu";
 import { BackToTop } from "@/ui/BackToTop";
 import { Icon, type IconName } from "@/ui/Icon";
@@ -61,7 +60,6 @@ export function AppLayout() {
             </span>
           </span>
         </Link>
-        <BenchPill />
         <nav aria-label={t("layout.sections")} className={styles.sections}>
           {SECTIONS.map((s) => {
             const here = s.match.test(pathname);

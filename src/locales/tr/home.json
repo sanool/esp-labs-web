@@ -10,9 +10,8 @@
     }
   },
   "hud": {
-    "title": "Deneyler çalışıyor",
+    "title": "İlerlemen",
     "strip": "Her deney, konuya göre",
-    "works": "kartta çalışıyor",
     "done": "sen tamamladın",
     "built": "denemeye hazır"
   },
@@ -101,7 +100,7 @@
   },
   "track": {
     "planned": "planlandı",
-    "working": "<b>{{working}}</b>/{{total}}<span> çalışıyor</span>",
+    "done": "<b>{{done}}</b>/{{total}}<span> tamamlandı</span>",
     "state": ", {{state}}",
     "loading": "Yükleniyor…"
   }

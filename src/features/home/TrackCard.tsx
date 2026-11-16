@@ -23,8 +23,7 @@ export function TrackCard({
   const style = { "--track": `var(${track.color})` } as CSSProperties;
   const open = lessons?.filter((l) => l.kind === "lesson") ?? [];
   const tally = tallyStates(open, ticks);
-  const working = tally.done + tally.works;
-  const share = open.length ? working / open.length : 0;
+  const share = open.length ? tally.done / open.length : 0;
   const { t } = useTranslation("home");
   const { title, blurb } = useTrackText()(track);
 
@@ -62,8 +61,8 @@ export function TrackCard({
           ) : (
             <Trans
               t={t}
-              i18nKey="track.working"
-              values={{ working, total: open.length }}
+              i18nKey="track.done"
+              values={{ done: tally.done, total: open.length }}
               components={{ b: <b />, span: <span /> }}
             />
           )}

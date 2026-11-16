@@ -10,9 +10,8 @@
     }
   },
   "hud": {
-    "title": "可用的实验",
+    "title": "你的进度",
     "strip": "按路线排列的所有实验",
-    "works": "已在开发板上运行",
     "done": "你已完成",
     "built": "可以试试"
   },
@@ -96,7 +95,7 @@
   },
   "track": {
     "planned": "计划中",
-    "working": "<b>{{working}}</b>/{{total}}<span> 可用</span>",
+    "done": "<b>{{done}}</b>/{{total}}<span> 已完成</span>",
     "state": "，{{state}}",
     "loading": "加载中…"
   }

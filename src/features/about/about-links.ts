@@ -13,6 +13,3 @@ export function isOutside(
    x: number, y: number): boolean {
   return x < box.left || x > box.right || y < box.top || y > box.bottom;
 }
-
-/** Everyone who has contributed to the guide, on GitHub. */
-export const CONTRIBUTORS_URL = "https://github.com/agharsallah/esp-labs-web/graphs/contributors";

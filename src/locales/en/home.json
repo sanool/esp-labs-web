@@ -10,9 +10,8 @@
     }
   },
   "hud": {
-    "title": "Labs working",
+    "title": "Your labs",
     "strip": "Every lab, by theme",
-    "works": "on the board",
     "done": "done by you",
     "built": "ready to try"
   },
@@ -101,7 +100,7 @@
   },
   "track": {
     "planned": "planned",
-    "working": "<b>{{working}}</b>/{{total}}<span> working</span>",
+    "done": "<b>{{done}}</b>/{{total}}<span> done</span>",
     "state": ", {{state}}",
     "loading": "Loading…"
   }

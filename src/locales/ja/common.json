@@ -209,8 +209,6 @@
     "disclaimer": "これは非公式の個人プロジェクトであり、Espressif とは提携しておらず、承認も受けていません。どのラボも実機で組み立てて動かしていますが、配線・ピン配置・数値はレビュー済みであっても保証はしません。ボードに印刷された表記と Espressif 自身の資料が常に優先します。",
     "feedback": "間違いを見つけた、または新しいラボが欲しいときは、<issues>GitHub の issue</issues> がいちばん早い修正への近道です。",
     "basedOn": "<b>ESP32 Fans</b> は、Abderrahmen Gharsallah によるオープンソースのガイド <upstream>ESP32 Labs</upstream>（<license>MIT ライセンス</license>）をもとにした独立サイトです。原作者の公式サイトではなく、原作者が運営しているものでもありません。",
-    "thanks": "GitHub のこのコントリビューターの皆さんに助けられています：",
-    "allContributors": "すべてのコントリビューター",
     "newTab": "（新しいタブで開きます）"
   }
 }

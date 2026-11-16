@@ -27,7 +27,6 @@ export function LabsHome() {
   const all = tracks.flatMap((t) => t.lessons ?? []);
   const open = all.filter((l) => l.kind === "lesson");
   const tally = tallyStates(open, ticks);
-  const working = tally.works + tally.done;
   const next = continueLesson(all, lastId ?? DEFAULT_LESSON_ID, ticks);
   const nextTrack = tracks.find((t) => t.track.id === next?.track)?.track;
 
@@ -53,7 +52,7 @@ export function LabsHome() {
             <Icon name="board" size={20} />
             <span>{t("hud.title")}</span>
             <b>
-              {working}
+              {tally.done}
               <small>/{open.length}</small>
             </b>
           </p>
@@ -75,17 +74,13 @@ export function LabsHome() {
               ))}
           </ol>
           <dl className={styles.stats}>
-            <div data-state="works">
-              <dt>{t("hud.works")}</dt>
-              <dd>{working}</dd>
-            </div>
             <div data-state="done">
               <dt>{t("hud.done")}</dt>
               <dd>{tally.done}</dd>
             </div>
             <div data-state="built">
               <dt>{t("hud.built")}</dt>
-              <dd>{tally.built}</dd>
+              <dd>{open.length - tally.done}</dd>
             </div>
           </dl>
         </section>

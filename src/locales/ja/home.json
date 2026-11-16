@@ -10,9 +10,8 @@
     }
   },
   "hud": {
-    "title": "動作するラボ",
+    "title": "あなたの進捗",
     "strip": "テーマ別の全ラボ",
-    "works": "ボードで動作",
     "done": "完了",
     "built": "試せます"
   },
@@ -96,7 +95,7 @@
   },
   "track": {
     "planned": "計画中",
-    "working": "<b>{{working}}</b>/{{total}}<span> 動作</span>",
+    "done": "<b>{{done}}</b>/{{total}}<span> 完了</span>",
     "state": "、{{state}}",
     "loading": "読み込み中…"
   }

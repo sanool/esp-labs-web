@@ -238,8 +238,6 @@
     "disclaimer": "To nieoficjalny, niezależny projekt, niezwiązany z firmą Espressif ani przez nią nie popierany. Każde laboratorium jest zbudowane i uruchomione na prawdziwej płytce, ale okablowanie, wyprowadzenia i wartości są sprawdzane, nigdy gwarantowane: oznaczenia na Twojej płytce i dokumenty Espressif są zawsze ważniejsze.",
     "feedback": "Widzisz błąd albo chcesz nowe laboratorium? <issues>Zgłoszenie na GitHubie</issues> to najszybszy sposób, by to naprawić.",
     "basedOn": "<b>ESP32 Fans</b> to niezależna strona zbudowana na bazie <upstream>ESP32 Labs</upstream>, otwartego przewodnika autorstwa Abderrahmena Gharsallaha, wydanego na <license>licencji MIT</license>. To nie jest strona pierwotnego autora i nie on ją prowadzi.",
-    "thanks": "Z pomocą tych osób na GitHubie:",
-    "allContributors": "Wszyscy współtwórcy",
     "newTab": "(otwiera się w nowej karcie)"
   }
 }
