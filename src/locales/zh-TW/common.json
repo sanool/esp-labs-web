@@ -210,5 +210,14 @@
     "feedback": "發現錯誤，或想要新的實驗？<issues>在 GitHub 上開 issue</issues> 是最快的修正方式。",
     "basedOn": "<b>ESP32 Fans</b> 是一個獨立網站，基於 Abderrahmen Gharsallah 的開源教學 <upstream>ESP32 Labs</upstream> 修改而成，原專案以 <license>MIT 授權</license>發布。本站不是原作者的官方網站，也不由他經營。",
     "newTab": "（在新分頁中開啟）"
+  },
+  "community": {
+    "button": "交流群",
+    "open": "打開微信交流群 QR 碼",
+    "title": "加入 ESP32 交流群",
+    "lead": "和一起玩 ESP32 的朋友聊接線、燒錄和踩過的坑。",
+    "qrAlt": "微信交流群 QR 碼",
+    "hint": "用微信掃一掃，進群",
+    "close": "關閉"
   }
 }

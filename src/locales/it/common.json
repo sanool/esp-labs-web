@@ -212,5 +212,14 @@
     "feedback": "Hai trovato un errore o vuoi un nuovo laboratorio? <issues>Una issue su GitHub</issues> è il modo più rapido per sistemarlo.",
     "basedOn": "<b>ESP32 Fans</b> è un sito indipendente basato su <upstream>ESP32 Labs</upstream>, la guida open source di Abderrahmen Gharsallah, rilasciata con <license>licenza MIT</license>. Non è il sito dell'autore originale, che non lo gestisce.",
     "newTab": "(si apre in una nuova scheda)"
+  },
+  "community": {
+    "button": "Gruppo",
+    "open": "Apri il codice QR del gruppo WeChat",
+    "title": "Entra nel gruppo ESP32 su WeChat",
+    "lead": "Parla di cablaggi, flash e intoppi con altri che lavorano con l'ESP32.",
+    "qrAlt": "Codice QR del gruppo WeChat",
+    "hint": "Scansiona con WeChat per entrare",
+    "close": "Chiudi"
   }
 }

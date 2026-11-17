@@ -1,6 +1,7 @@
 .button {
   position: fixed;
-  inset-block-end: max(16px, env(safe-area-inset-bottom));
+  /* Above the community button, which holds the corner. */
+  inset-block-end: calc(max(16px, env(safe-area-inset-bottom)) + 60px);
   inset-inline-end: max(var(--gutter), env(safe-area-inset-right));
   z-index: 15;
   display: grid;

@@ -239,5 +239,14 @@
     "feedback": "Widzisz błąd albo chcesz nowe laboratorium? <issues>Zgłoszenie na GitHubie</issues> to najszybszy sposób, by to naprawić.",
     "basedOn": "<b>ESP32 Fans</b> to niezależna strona zbudowana na bazie <upstream>ESP32 Labs</upstream>, otwartego przewodnika autorstwa Abderrahmena Gharsallaha, wydanego na <license>licencji MIT</license>. To nie jest strona pierwotnego autora i nie on ją prowadzi.",
     "newTab": "(otwiera się w nowej karcie)"
+  },
+  "community": {
+    "button": "Grupa",
+    "open": "Otwórz kod QR grupy WeChat",
+    "title": "Dołącz do grupy ESP32 na WeChat",
+    "lead": "Rozmawiaj o połączeniach, wgrywaniu i pułapkach z innymi, którzy budują na ESP32.",
+    "qrAlt": "Kod QR grupy WeChat",
+    "hint": "Zeskanuj w WeChat, aby dołączyć",
+    "close": "Zamknij"
   }
 }

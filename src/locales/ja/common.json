@@ -210,5 +210,14 @@
     "feedback": "間違いを見つけた、または新しいラボが欲しいときは、<issues>GitHub の issue</issues> がいちばん早い修正への近道です。",
     "basedOn": "<b>ESP32 Fans</b> は、Abderrahmen Gharsallah によるオープンソースのガイド <upstream>ESP32 Labs</upstream>（<license>MIT ライセンス</license>）をもとにした独立サイトです。原作者の公式サイトではなく、原作者が運営しているものでもありません。",
     "newTab": "（新しいタブで開きます）"
+  },
+  "community": {
+    "button": "グループ",
+    "open": "WeChat グループの QR コードを開く",
+    "title": "ESP32 の WeChat グループに参加",
+    "lead": "配線や書き込み、つまずいたところを ESP32 仲間と話しましょう。",
+    "qrAlt": "WeChat グループの QR コード",
+    "hint": "WeChat でスキャンして参加",
+    "close": "閉じる"
   }
 }

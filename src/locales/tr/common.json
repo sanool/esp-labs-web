@@ -237,5 +237,14 @@
     "feedback": "Bir hata mı fark ettin, yoksa yeni bir laboratuvar mı istiyorsun? <issues>GitHub'da bir issue</issues> düzeltilmesinin en hızlı yolu.",
     "basedOn": "<b>ESP32 Fans</b>, Abderrahmen Gharsallah'ın <license>MIT lisansıyla</license> yayımlanan açık kaynak rehberi <upstream>ESP32 Labs</upstream> üzerine kurulmuş bağımsız bir sitedir. Asıl yazarın sitesi değildir ve onun tarafından yönetilmez.",
     "newTab": "(yeni sekmede açılır)"
+  },
+  "community": {
+    "button": "Grup",
+    "open": "WeChat grubu QR kodunu aç",
+    "title": "WeChat'teki ESP32 grubuna katıl",
+    "lead": "Kablolama, yükleme ve takıldığın yerleri ESP32 ile uğraşan diğerleriyle konuş.",
+    "qrAlt": "WeChat grubu QR kodu",
+    "hint": "Katılmak için WeChat ile tara",
+    "close": "Kapat"
   }
 }

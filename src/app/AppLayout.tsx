@@ -2,6 +2,7 @@
 import { Trans, useTranslation } from "react-i18next";
 import { Link, Outlet, ScrollRestoration, useLocation, useNavigation } from "react-router";
 import { AboutDialog } from "@/features/about/AboutDialog";
+import { CommunityButton } from "@/features/community/CommunityButton";
 import { LanguageMenu } from "@/features/language/LanguageMenu";
 import { BackToTop } from "@/ui/BackToTop";
 import { Icon, type IconName } from "@/ui/Icon";
@@ -92,6 +93,7 @@ export function AppLayout() {
         {t("layout.footnote")} <Link to="/parts">{t("layout.partsLink")}</Link>
       </p>
       <BackToTop />
+      <CommunityButton />
       <ScrollRestoration />
     </div>
   );

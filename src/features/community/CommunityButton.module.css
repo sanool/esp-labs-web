@@ -1,0 +1,129 @@
+/* Bottom right on every page, in the back-to-top button's ink; that button sits just above it. */
+.button {
+  position: fixed;
+  inset-block-end: max(16px, env(safe-area-inset-bottom));
+  inset-inline-end: max(var(--gutter), env(safe-area-inset-right));
+  z-index: 15;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 48px;
+  height: 48px;
+  padding-inline: 16px 18px;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--surface);
+  font: 600 14px var(--font-body);
+  box-shadow: 0 10px 24px -14px var(--ink);
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+.button:hover {
+  background: var(--copper);
+  border-color: var(--copper);
+}
+.button:active {
+  transform: scale(0.96);
+}
+/* Phones: a round icon button; the aria-label names it. */
+@media (max-width: 559px) {
+  .button {
+    padding-inline: 0;
+  }
+  .label {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .button:active {
+    transform: none;
+  }
+}
+
+.dialog {
+  width: min(380px, calc(100vw - 2 * var(--gutter)));
+  max-height: calc(100dvh - 2 * var(--gutter));
+  margin: auto;
+  padding: 24px 26px 26px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-l);
+  box-shadow: 0 24px 60px color-mix(in srgb, var(--pcb) 40%, transparent);
+  text-align: center;
+}
+.dialog::backdrop {
+  background: color-mix(in srgb, var(--pcb) 62%, transparent);
+  backdrop-filter: blur(2px);
+}
+.dialog[open] {
+  animation: rise 0.18s ease-out;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dialog[open] {
+    animation: none;
+  }
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  text-align: start;
+}
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 22px;
+  line-height: 1.2;
+}
+.close {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  margin-inline-end: -10px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+}
+.close:hover {
+  color: var(--ink);
+}
+.lead {
+  margin: 8px 0 16px;
+  color: var(--muted);
+  font-size: 15px;
+  text-align: start;
+}
+/* The code keeps its own white ground, so it scans in the dark theme too. */
+.qr {
+  display: block;
+  width: min(260px, 100%);
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+}
+.hint {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font: 13px var(--font-mono);
+}
